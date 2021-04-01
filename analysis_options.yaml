@@ -1,0 +1,6 @@
+analyzer:
+  errors:
+    todo: ignore
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
