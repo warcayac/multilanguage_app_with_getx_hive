@@ -11,3 +11,6 @@ This project does the following tasks, it:
 - offers local data persistence.
 
 After installing new language packages the app needs to restart for the changes to take effect.
+
+### Note
+- `wnetworking` package is not ready to publish yet, it contains operations related to API, etc. You can replace `HttpReqService.getJson` with your typical `http.get` but keep in mind the return value and exceptions.
